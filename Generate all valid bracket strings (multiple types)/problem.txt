@@ -1,0 +1,10 @@
+Problem: Generate all valid combinations of well-formed bracket strings (with multiple types)
+
+You're given an integer n. Generate all well-formed bracket strings that contain n pairs of each of the following brackets: (), [], {}
+Return all valid combinations that follow proper nesting rules. The order of the output does not matter.
+
+Input:
+    n = 1
+
+Output:
+    ['([{}])', '([]{})', '([]){}', ...]
