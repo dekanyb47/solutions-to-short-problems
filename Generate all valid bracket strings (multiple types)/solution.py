@@ -22,10 +22,7 @@ def generate_all_n_pairs_of_valid_parentheses(n) -> list:
 
     parentheses_pairs = {"(" : ")",
                          "[" : "]",
-                         "{" : "}",
-                         ")" : "(",
-                         "]" : "[",
-                         "}" : "{"}
+                         "{" : "}",}
     
     current_combination = []
     parentheses_order = []
