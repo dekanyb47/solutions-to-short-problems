@@ -1,8 +1,5 @@
 # topics: recursion, hashes, stacks
 
-# time: O(9^n)
-# space: O(n) (not sure)
-
 def generate_all_n_pairs_of_valid_parentheses(n) -> list:
     
     # store the order of parentheses in a stack
